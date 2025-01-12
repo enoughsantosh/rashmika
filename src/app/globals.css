@@ -2,20 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+@keyframes moveTopLeft {
+  to {
+    transform: translate(-60%, -60%);
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes moveTopRight {
+  to {
+    transform: translate(60%, -60%);
+  }
+}
+
+@keyframes moveBottomLeft {
+  to {
+    transform: translate(-60%, 60%);
+  }
+}
+
+@keyframes moveBottomRight {
+  to {
+    transform: translate(60%, 60%);
+  }
+}
+
+.animate-top-left {
+  animation: moveTopLeft 0.5s ease forwards;
+}
+
+.animate-top-right {
+  animation: moveTopRight 0.5s ease forwards;
+}
+
+.animate-bottom-left {
+  animation: moveBottomLeft 0.5s ease forwards;
+}
+
+.animate-bottom-right {
+  animation: moveBottomRight 0.5s ease forwards;
 }
