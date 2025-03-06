@@ -4,7 +4,7 @@ import Loader from "./loader";
 
 const Page = () => {
   const imageArray = [
-    { id: 1, image: "/image1.jpeg" },
+    { id: 1, image: "/image1.JPEG" },
     { id: 2, image: "/image2.jpeg" },
     { id: 3, image: "/image3.jpeg" },
     { id: 4, image: "/image4.jpeg" },
