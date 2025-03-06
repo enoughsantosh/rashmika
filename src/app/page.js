@@ -5,26 +5,26 @@ import Loader from "./loader";
 const Page = () => {
   const imageArray = [
     { id: 1, image: "/image1.JPEG" },
-    { id: 2, image: "/image2.jpeg" },
-    { id: 3, image: "/image3.jpeg" },
-    { id: 4, image: "/image4.jpeg" },
+    { id: 2, image: "/image2.JPEG" },
+    { id: 3, image: "/image3.JPEG" },
+    { id: 4, image: "/image4.JPEG" },
   ];
   const newImage = [
-    { id: 1, image: "/image1.jpeg" },
-    { id: 2, image: "/image2.jpeg" },
-    { id: 3, image: "/image3.jpeg" },
-    { id: 4, image: "/image4.jpeg" },
-    { id: 5, image: "/image5.jpeg" },
-    { id: 6, image: "/image6.jpeg" },
-    { id: 7, image: "/image7.jpeg" },
-    { id: 8, image: "/image8.jpeg" },
-    { id: 9, image: "/image9.jpeg" },
-    { id: 10, image: "/image10.jpeg" },
-    { id: 11, image: "/image11.jpeg" },
-    { id: 12, image: "/image12.jpeg" },
-    { id: 13, image: "/image13.jpeg" },
-    { id: 14, image: "/image14.jpeg" },
-    { id: 15, image: "/image15.jpeg" }
+    { id: 1, image: "/image1.JPEG" },
+    { id: 2, image: "/image2.JPEG" },
+    { id: 3, image: "/image3.JPEG" },
+    { id: 4, image: "/image4.JPEG" },
+    { id: 5, image: "/image5.JPEG" },
+    { id: 6, image: "/image6.JPEG" },
+    { id: 7, image: "/image7.JPEG" },
+    { id: 8, image: "/image8.JPEG" },
+    { id: 9, image: "/image9.JPEG" },
+    { id: 10, image: "/image10.JPEG" },
+    { id: 11, image: "/image11.JPEG" },
+    { id: 12, image: "/image12.JPEG" },
+    { id: 13, image: "/image13.JPEG" },
+    { id: 14, image: "/image14.JPEG" },
+    { id: 15, image: "/image15.JPEG" }
   ];
 
   const [animations, setAnimations] = useState([]);
