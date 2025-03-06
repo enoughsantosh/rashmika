@@ -2,10 +2,10 @@ import React from "react";
 
 const Loader = () => {
   const imageArray = [
-    { id: 1, image: "/image1.jpeg" },
-    { id: 2, image: "/image2.jpeg" },
-    { id: 3, image: "/image3.jpeg" },
-    { id: 4, image: "/image4.jpeg" },
+    { id: 1, image: "/image1.JPEG" },
+    { id: 2, image: "/image2.JPEG" },
+    { id: 3, image: "/image3.JPEG" },
+    { id: 4, image: "/image4.JPEG" },
   ];
 
   return (
